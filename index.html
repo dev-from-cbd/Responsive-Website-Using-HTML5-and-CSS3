@@ -1,0 +1,91 @@
+<html>
+    <html lang="en">            
+    <head>
+        <title>
+            Shadow Barber
+        </title>
+                  
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <meta name="description" content="Shadow Barber Bendigo - Alex Web">
+            <meta name="keywords" content="Shadow Barber Bendigo, Alex Web">
+
+            <title>Shadow Barber Alex Web</title>
+                <link rel="shortcut icon" href="images/png.png">
+                
+                <link rel="stylesheet" href="style.css">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+                
+                                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVLZ27CVLE"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-DVLZ27CVLE');
+                    </script>
+                    
+    </head>
+    <body>
+        <section id="banner">
+            <img src="images/logo.png" class="logo">
+            <div class="banner-text">
+                <h1>Shadow Barber</h1>
+                <p>Alex Web</p>
+                <div class="banner-btn">
+                    <a href=""><span></span>Find Out</a>
+                    <a href=""><span></span>Read More</a>
+                </div>
+            </div>
+        </section>
+        
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#">Meet us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+        
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            
+            sideNav.style.right = "-250px";
+            
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "images/close.png";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "images/menu.png";
+                }
+            }
+        </script>
+        
+    </body>
+</html>
