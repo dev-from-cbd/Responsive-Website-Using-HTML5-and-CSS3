@@ -109,3 +109,13 @@ nav ul li a{
     width: 20px;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    
+    .banner-btn a{
+        display: block;
+    }
+}
