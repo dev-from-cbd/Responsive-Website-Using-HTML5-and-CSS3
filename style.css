@@ -117,5 +117,20 @@ nav ul li a{
     
     .banner-btn a{
         display: block;
+        margin: 20px auto;
     }
+}
+
+#feature{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text p{
+    margin: auto;
 }
