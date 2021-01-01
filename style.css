@@ -29,6 +29,13 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+/*
+.banner-text h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+*/
+
 .banner-text p{
     font-size: 20px;
     font-style: italic;
@@ -155,7 +162,13 @@ nav ul li a{
     border-bottom-right-radius: 35px;
 }
 
+/*
 .title-text h1{
+    font-size: 50px;
+}
+*/
+
+.title-text h2{
     font-size: 50px;
 }
 
@@ -179,4 +192,95 @@ nav ul li a{
 
 .features-img img{
     width: 70%;
+    border-radius: 10px;
+}
+
+.features h2{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+}
+
+.features-description{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.features-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+}
+
+.features-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width: 770px){
+    .title-text h2{
+        font-size: 35px;
+    }
+    
+    .features{
+        flex-basis: 100%;
+    }
+    
+    .features-img{
+        flex-basis: 100%;
+    }
+    
+    .features-img img{
+        width: 100%;
+    }
+}
+
+#service{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.single-service img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+
+.single-service:hover .overlay{
+    opacity: 1;
 }
