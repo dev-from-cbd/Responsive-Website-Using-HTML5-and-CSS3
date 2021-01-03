@@ -284,3 +284,7 @@ nav ul li a{
 .single-service:hover .overlay{
     opacity: 1;
 }
+
+.service-description{
+    width: 80%;
+}
