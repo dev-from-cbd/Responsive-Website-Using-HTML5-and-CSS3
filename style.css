@@ -287,4 +287,51 @@ nav ul li a{
 
 .service-description{
     width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.service-description p{
+    font-size: 14px;
+}
+
+.single-service:hover .service-description{
+    bottom: 40%;
+    opacity: 1;
+}
+
+@media screen and (max-width: 770px){
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .service-description p{
+        font-size: 12px;
+    }
+    
+    hr{
+        margin: 5px auto;
+    }
+    
+    .single-service:hover .service-description{
+        bottom: 25% !important;
+    }
+}
+
+#testimonials{
+    width: 100%;
+    padding: 70px 0;
 }
