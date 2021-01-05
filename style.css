@@ -335,3 +335,42 @@ hr{
     width: 100%;
     padding: 70px 0;
 }
+
+.testimonials-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonials-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+
+.testimonials-col p{
+    font-size: 14px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img{
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+}
