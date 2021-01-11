@@ -1,321 +1,389 @@
-<html>
+<!DOCTYPE html>
     <html lang="en">            
-    <head>
-        <title>
-            Shadow Barber
-        </title>
+        <head>
+     
+            <title>Shadow Barber - Alex Web</title>
                   
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="UTF-8">
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+                <!--
+                <meta name="csrf-token" content="...">
+                -->
+                
+                <meta name="msapplication-TileColor" content="#ffffff">
+                <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
+                <!--
+                <meta name="theme-color" content="#ffffff">
+                -->
 
-            <meta name="description" content="Shadow Barber Bendigo - Alex Web">
-            <meta name="keywords" content="Shadow Barber Bendigo, Alex Web">
+                <meta name="description" content="Shadow Barber Bendigo - Alex Web">
+                <meta name="keywords" content="Shadow Barber Bendigo, Alex Web">
+                
+                <meta name="application-name" content="Shadow Barber">
+                 
+                <!-- Schema.org markup for Google+ 
+                <meta itemprop="name" content="Shadow Barber">
+                <meta itemprop="description" content="The city’s most popular barbershop">
+                <meta itemprop="image" content="images/favicons/open-graph.png">
+                -->
+                 
+                <!-- Twitter Card data -->
+                <meta name="twitter:card" content="summary" >
+                <!--
+                <meta name="twitter:site" content="@shadowbarber">
+                -->
+                <meta name="twitter:title" content="Shadow Barber">
+                <meta name="twitter:description" content="The city’s most popular barbershop">
+                <!--
+                <meta name="twitter:creator" content="@shadowbarber">
+                -->
+                <meta name="twitter:image" content="images/favicons/open-graph.png">
+                 
+                <!-- Open Graph data -->
+                <meta property="og:title" content="Shadow Barber">
+                <meta property="og:type" content="website">
+                <meta property="og:url" content="http://ShadowBarber.com">
+                <meta property="og:image" content="images/favicons/open-graph.png">
+                <meta property="og:description" content="The city’s most popular barbershop">
+                  
+                    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
+                    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
+                    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
+                    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
+                    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
+                    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
+                    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
+                    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
+                    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+                    
+                    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+                    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+                    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
 
-            <title>Shadow Barber Alex Web</title>
-                <link rel="shortcut icon" href="images/png.png">
-                
-                <link rel="stylesheet" href="style.css">
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-                
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-                <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
-                
+                    <link rel="shortcut icon" href="images/png.png">
+
+                    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Default" href="style.css?vsn=d">
+                    
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+                    
                                     <!-- Global site tag (gtag.js) - Google Analytics -->
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVLZ27CVLE"></script>
-                    <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVLZ27CVLE"></script>
+                        <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
 
-                    gtag('config', 'G-DVLZ27CVLE');
-                    </script>
+                        gtag('config', 'G-DVLZ27CVLE');
+                        </script>
+
+                        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
                     
-    </head>
-    <body>
-        <section id="banner">
-            <img src="images/logo.png" class="logo">
-            <div class="banner-text">
-                <h1>Shadow Barber</h1>
-                <p>Alex Web</p>
-                <div class="banner-btn">
-                    <a href=""><span></span>Find Out</a>
-                    <a href=""><span></span>Read More</a>
-                </div>
-            </div>
-        </section>
+        </head>
+        <body>
         
-        <div id="sideNav">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Features</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Testimonials</a>
-                    </li>
-                    <li>
-                        <a href="#">Meet us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div id="menuBtn">
-            <img src="images/menu.png" id="menu">
-        </div>
-        
-        <section id="feature">
-            <div class="title-text">
-                <p>
-                    Feature
-                </p>
-                <h2>
-                    Why choose us
-                </h2>
-            </div>
+            <header>
+                <section id="banner">
+                    <img src="images/logo.png" class="logo" alt="logo">
+                    <div class="banner-text">
+                        <h1>Shadow Barber</h1>
+                        <p>Alex Web</p>
+                        <div class="banner-btn">
+                            <a href="#feature"><span></span>About me</a>
+                            <a href="#service"><span></span>Price list</a>
+                        </div>
+                    </div>
+                </section>
             
-            <div class="feature-box">
+                <div id="sideNav">
+                    <nav class="navbar">
+                        <div class="navbar__container">
+                        <ul class="navbar__menu">
+                            <li class="navbar__item">
+                                <a href="#banner" class="navbar__links">Home</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#feature" class="navbar__links">Features</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#service" class="navbar__links">Services</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#testimonials" class="navbar__links">Testimonials</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#footer" class="navbar__links">Meet us</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+        
+                <div id="menuBtn">
+                    <img src="images/menu.png" id="menu" alt="menu">
+                </div>
+        
+                <section id="feature">
+                    <div class="title-text">
+                        <p>
+                            Feature
+                        </p>
+                        <h2>
+                            Why choose us
+                        </h2>
+                    </div>
+
+                    <div class="feature-box">
+
+                        <div class="features">
+
+                            <h2>
+                                Experienced Staff
+                            </h2>
+                            <div class="features-description">
+                                <div class="features-icon">
+                                    <i class="fa fa-shield"></i>
+                                </div>
+                                <div class="features-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h2>
+                                Pre Booking Online
+                            </h2>
+                            <div class="features-description">
+                                <div class="features-icon">
+                                    <i class="fa fa-check-square-o"></i>
+                                </div>
+                                <div class="features-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h2>
+                                Affordable Cost
+                            </h2>
+                            <div class="features-description">
+                                <div class="features-icon">
+                                    <i class="fa fa-dollar"></i>
+                                </div>
+                                <div class="features-text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="features-img">
+                            <img src="images/barber-man.jpg" alt="barber">
+                        </div>
+                    </div>
+                </section>
                
-                <div class="features">
-                   
-                    <h2>
-                        Experienced Staff
-                    </h2>
-                    <div class="features-description">
-                        <div class="features-icon">
-                            <i class="fa fa-shield"></i>
-                        </div>
-                        <div class="features-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
-                            </p>
-                        </div>
-                    </div>
-                   
-                    <h2>
-                        Pre Booking Online
-                    </h2>
-                    <div class="features-description">
-                        <div class="features-icon">
-                            <i class="fa fa-check-square-o"></i>
-                        </div>
-                        <div class="features-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
-                            </p>
-                        </div>
-                    </div>
-                   
-                    <h2>
-                        Affordable Cost
-                    </h2>
-                    <div class="features-description">
-                        <div class="features-icon">
-                            <i class="fa fa-dollar"></i>
-                        </div>
-                        <div class="features-text">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quisquam quo ullam provident soluta ad nostrum modi. 
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="features-img">
-                    <img src="images/barber-man.jpg">
-                </div>
-            </div>
-        </section>
-        
-        <section id="service">
-            <div class="title-text">
-                <p>
-                    Services
-                </p>
-                <h2>
-                    We provide better   
-                </h2>
-            </div>
-            <div class="service-box">
-                <div class="single-service">
-                    <img src="images/things.jpg" alt="things">
-                    <div class="overlay"></div>
-                    
-                    <div class="service-description">
-                        <h3>Hair styling</h3>
-                        <hr>
-                        <p>This is test under description of barber foundation</p>
-                    </div>
-                    
-                </div>
-                <div class="single-service">
-                    <img src="images/beard.jpg" alt="things">
-                    <div class="overlay"></div>
-                    
-                    <div class="service-description">
-                        <h3>Beard trim</h3>
-                        <hr>
-                        <p>This is test under description of barber foundation</p>
-                    </div>
-                    
-                </div>
-                <div class="single-service">
-                    <img src="images/barber-shop.jpg" alt="things">
-                    <div class="overlay"></div>
-                    
-                    <div class="service-description">
-                        <h3>Hair cut</h3>
-                        <hr>
-                        <p>This is test under description of barber foundation</p>
-                    </div>
-                    
-                </div>
-                <div class="single-service">
-                    <img src="images/cut.jpg" alt="things">
-                    <div class="overlay"></div>
-                    
-                    <div class="service-description">
-                        <h3>Dry shampoo</h3>
-                        <hr>
-                        <p>This is test under description of barber foundation</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        
-        <section id="testimonials">
-            <div class="title-text">
-                <p>
-                    Testimonials
-                </p>
-                <h2>
-                    Rewievs
-                </h2>
-            </div>
-            
-            <div class="testimonials-row">
-                <div class="testimonials-col">
-                  
-                   <div class="user">
-                       <img src="images/ken.jpg" alt="Review no.1">
-                       <div class="user-info">
-                           <h4>Ken <i class="fa fa-twitter"></i></h4>
-                           <small>@ken</small>
-                       </div>
-                   </div>
-                   
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur blanditiis atque deserunt magnam consequuntur nihil laboriosam impedit, repudiandae aliquid recusandae sint, dolorem?
-                    </p>
-                </div>
-                <div class="testimonials-col">
-                   
-                    <div class="user">
-                       <img src="images/ben.jpg" alt="Review no.2">
-                       <div class="user-info">
-                           <h4>Ben <i class="fa fa-twitter"></i></h4>
-                           <small>@ben</small>
-                       </div>
-                    </div>
-                   
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, dolores.
-                    </p>
-                </div>
-                <div class="testimonials-col">
-                                      
-                    <div class="user">
-                       <img src="images/den.jpg" alt="Review no.3">
-                       <div class="user-info">
-                           <h4>Den <i class="fa fa-twitter"></i></h4>
-                           <small>@den</small>
-                       </div>
-                    </div>
-                   
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maxime reiciendis, nostrum culpa incidunt non nihil perspiciatis enim!
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <section id="footer">
-               <img src="images/footer.jpg" alt="footer" class="footer-img">
+            </header>
+           
+            <section id="service">
                 <div class="title-text">
                     <p>
-                        Contact
+                        Services
                     </p>
                     <h2>
-                        Visit my barbershop today
+                        We provide better   
                     </h2>
                 </div>
-                <div class="footer-row">
-                    <div class="footer-left">
-                        <h2>
-                            Opening hours
-                        </h2>
+                <div class="service-box">
+                    <div class="single-service">
+                        <img src="images/things.jpg" alt="things">
+                        <div class="overlay"></div>
+
+                        <div class="service-description">
+                            <h3>Hair styling</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation</p>
+                        </div>
+
+                    </div>
+                    <div class="single-service">
+                        <img src="images/beard.jpg" alt="things">
+                        <div class="overlay"></div>
+
+                        <div class="service-description">
+                            <h3>Beard trim</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation</p>
+                        </div>
+
+                    </div>
+                    <div class="single-service">
+                        <img src="images/barber-shop.jpg" alt="things">
+                        <div class="overlay"></div>
+
+                        <div class="service-description">
+                            <h3>Hair cut</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation</p>
+                        </div>
+
+                    </div>
+                    <div class="single-service">
+                        <img src="images/cut.jpg" alt="things">
+                        <div class="overlay"></div>
+
+                        <div class="service-description">
+                            <h3>Dry shampoo</h3>
+                            <hr>
+                            <p>This is test under description of barber foundation</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        
+            <section id="testimonials">
+                <div class="title-text">
+                    <p>
+                        Testimonials
+                    </p>
+                    <h2>
+                        Rewievs
+                    </h2>
+                </div>
+
+                <div class="testimonials-row">
+                    <div class="testimonials-col">
+
+                       <div class="user">
+                           <img src="images/ken.jpg" alt="Review no.1">
+                           <div class="user-info">
+                               <h4>Ken <i class="fa fa-twitter"></i></h4>
+                               <small>@ken</small>
+                           </div>
+                       </div>
+
                         <p>
-                           <i class="fa fa-clock-o"></i>
-                            Monday to Friday - 9am to 5pm
-                        </p>
-                        <p>
-                           <i class="fa fa-clock-o"></i>
-                            Saturday - 9am to 4pm
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur blanditiis atque deserunt magnam consequuntur nihil laboriosam impedit, repudiandae aliquid recusandae sint, dolorem?
                         </p>
                     </div>
-                    <div class="footer-right">
-                        <h2>
-                            Get in touch
-                        </h2>
+                    <div class="testimonials-col">
+
+                        <div class="user">
+                           <img src="images/ben.jpg" alt="Review no.2">
+                           <div class="user-info">
+                               <h4>Ben <i class="fa fa-twitter"></i></h4>
+                               <small>@ben</small>
+                           </div>
+                        </div>
+
                         <p>
-                            Bendigo
-                           <i class="fa fa-map-marker"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, dolores.
                         </p>
+                    </div>
+                    <div class="testimonials-col">
+
+                        <div class="user">
+                           <img src="images/den.jpg" alt="Review no.3">
+                           <div class="user-info">
+                               <h4>Den <i class="fa fa-twitter"></i></h4>
+                               <small>@den</small>
+                           </div>
+                        </div>
+
                         <p>
-                            <a href="mailto:mail@mail.mail">mail@mail.mail</a>
-                           <i class="fa fa-at"></i>
-                        </p>
-                        <p>
-                            +61 0427 123 456
-                           <i class="fa fa-phone"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maxime reiciendis, nostrum culpa incidunt non nihil perspiciatis enim!
                         </p>
                     </div>
                 </div>
-                <div class="social-links">
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-instagram"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-youtube-play"></i>
-                </div>
-            </section>    
-        </footer>
+            </section>
         
-        <script>
-            var menuBtn = document.getElementById("menuBtn")
-            var sideNav = document.getElementById("sideNav")
-            var menu = document.getElementById("menu")
-            
-            sideNav.style.right = "-250px";
-            
-            menuBtn.onclick = function(){
-                if(sideNav.style.right == "-250px"){
-                    sideNav.style.right = "0";
-                    menu.src = "images/close.png";
-                }
-                else{
-                    sideNav.style.right = "-250px";
-                    menu.src = "images/menu.png";
-                }
-            }
-        </script>
+            <footer>
+                <section id="footer">
+                   <img src="images/footer.jpg" alt="footer" class="footer-img">
+                    <div class="title-text">
+                        <p>
+                            Contact
+                        </p>
+                        <h2>
+                            Visit my barbershop today
+                        </h2>
+                    </div>
+                    <div class="footer-row">
+                        <div class="footer-left">
+                            <h2>
+                                Opening hours
+                            </h2>
+                            <p>
+                               <i class="fa fa-clock-o"></i>
+                                Monday to Friday - 9am to 5pm
+                            </p>
+                            <p>
+                               <i class="fa fa-clock-o"></i>
+                                Saturday - 9am to 4pm
+                            </p>
+                        </div>
+                        <div class="footer-right">
+                            <h2>
+                                Get in touch
+                            </h2>
+                            <p>
+                                Bendigo
+                               <i class="fa fa-map-marker"></i>
+                            </p>
+                            <p>
+                                <a href="mailto:mail@mail.mail">mail@mail.mail</a>
+                               <i class="fa fa-at"></i>
+                            </p>
+                            <p>
+                                +61 0427 123 456
+                               <i class="fa fa-phone"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                        <p>Copyright - Oleg Gribanov - 2021</p>
+                    </div>
+                </section>    
+            </footer>
         
-    </body>
-</html>
+            <script>
+                var menuBtn = document.getElementById("menuBtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+
+                sideNav.style.right = "-250px";
+
+                menuBtn.onclick = function(){
+                    if(sideNav.style.right == "-250px"){
+                        sideNav.style.right = "0";
+                        menu.src = "images/close.png";
+                    }
+                    else{
+                        sideNav.style.right = "-250px";
+                        menu.src = "images/menu.png";
+                    }
+                }
+
+                var scroll = new SmoothScroll('a[href*="#"]', {
+                   speed: 1000,
+                   speedAsDuration: true
+                });
+
+            </script>
+        
+        </body>
+    </html>
