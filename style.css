@@ -275,7 +275,7 @@ hr{
 }
 
 .service-description p{
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .single-service:hover .service-description{
@@ -318,8 +318,8 @@ hr{
 }
 
 .user img{
-    width: 50px;
-    height: 73px;
+    width: 75px;
+    height: 75px;
     margin-right: 20px;
     border-radius: 6px;
 }
@@ -328,10 +328,23 @@ hr{
     margin-left: 10px;
     color: #27c0ff;
     font-size: 20px;
+    
+    /* text-align: center;
+    align-items: center; */
+}
+
+h4{
+    font-size: 22px;
+}
+
+.fa-facebook{
+    
 }
 
 .user-info small{
     color: #009688;
+    
+    font-size: 13px;
 }
 
 .testimonials-col:hover{
@@ -375,6 +388,14 @@ hr{
     color: #009688;
     margin: 10px;
 }
+
+/*
+.footer-left .fas,.footer-right .fas{
+    font-size: 20px;
+    color: #009688;
+    margin: 10px;
+}
+*/
 
 .footer-img{
     max-width: 370px;
